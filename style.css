@@ -1,0 +1,98 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        outline: 0px;     
+    }
+     
+     body {
+
+        background-color: rgb(238, 246, 22);
+
+     }
+
+      
+     ol,ul {
+
+       list-style-type: none;
+
+     }
+
+
+     a {
+
+        text-decoration: none;
+
+     }
+
+            
+      /* Start Design Header Area*/
+     
+     nav ul li {
+
+      float: left;
+      position: relative;
+      transition: all .5s ease;
+
+     }
+ 
+   nav ul li:hover {
+
+    background-color: #ffA07A;
+
+
+   }
+
+      nav ul li a {
+
+       font-size: 18px;
+       color: black;
+       font-family: 'Roboto', 'Courier New', Courier, monospace;
+       font-weight: 700;
+       text-transform: uppercase;
+       padding: 18px 25px;
+       display: block;
+
+      } 
+
+
+
+
+
+   /* ====================================================== */
+   
+      /*DropDown Design start*/
+      
+      nav ul li ul {
+
+     position: absolute;
+     width: 300px;
+     background-color: #fA8072;
+     margin-top: 30px;
+     transition: all .4s ease;
+     opacity: 0;
+     visibility: hidden;
+
+
+   }
+
+   nav ul li:hover > ul {
+
+   opacity: 1;
+   visibility: visible;
+   margin-top: 0px;
+
+
+   }
+
+   nav ul li ul li {
+
+     width: 100%;
+
+   }
+
+   nav ul li ul li ul {
+
+     left: 100%;
+     top: 0%;
+
+   }
